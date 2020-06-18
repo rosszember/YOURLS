@@ -8,13 +8,13 @@ table.tblSorter {
 	text-align: left;
 }
 table.tblSorter thead tr th, table.tblSorter tfoot tr th, table.tblSorter th.header {
-	background-color: #C7E7FF;
+	background-color: #A31651;
 	border: 1px solid #FFF;
 	font-size: 8pt;
 	padding: 4px;
 }
 table.tblSorter tfoot tr th {
-	background-color: #E3F3FF;
+	background-color: #D9135D;
 }
 table.tblSorter thead tr .tablesorter-header {
 	background-image: url('../images/bg.gif');

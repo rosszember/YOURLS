@@ -9,7 +9,7 @@ function yourls_html_logo() {
 	?>
 	<header role="banner">
 	<h1>
-		<a href="<?php echo yourls_admin_url( 'index.php' ) ?>" title="YOURLS"><span>YOURLS</span>: <span>Y</span>our <span>O</span>wn <span>URL</span> <span>S</span>hortener<br/>
+		<a href="<?php echo yourls_admin_url( 'index.php' ) ?>" title="Mito: Shorter things"><span>Mito: Shorter things<br/>
 		<img src="<?php yourls_site_url(); ?>/images/yourls-logo.svg" id="yourls-logo" alt="YOURLS" title="YOURLS" /></a>
 	</h1>
 	</header>

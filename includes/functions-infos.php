@@ -17,7 +17,7 @@ function yourls_stats_countries_map( $countries, $id = null ) {
 
 	$options = array(
 		'backgroundColor' => "white",
-		'colorAxis'       => "{colors:['A8D0ED','99C4E4','8AB8DB','7BACD2','6BA1C9','5C95C0','4D89B7','3E7DAE','2E72A5','1F669C']}",
+		'colorAxis'       => "{colors:['A8D0ED','99C4E4','8AB8DB','7BACD2','6BA1C9','5C95C0','4D89B7','3E7DAE','2E72A5','321A35']}",
 		'width'           => "550",
 		'height'          => "340",
 		'theme'           => 'maximized'
@@ -65,7 +65,7 @@ function yourls_stats_pie( $data, $limit = 10, $size = '340x220', $id = null ) {
 		'theme'  => 'maximized',
 		'width'   => $width,
 		'height'   => $height,
-		'colors'    => "['A8D0ED','99C4E4','8AB8DB','7BACD2','6BA1C9','5C95C0','4D89B7','3E7DAE','2E72A5','1F669C']",
+		'colors'    => "['A8D0ED','99C4E4','8AB8DB','7BACD2','6BA1C9','5C95C0','4D89B7','3E7DAE','2E72A5','321A35']",
 		'legend'     => 'none',
 		'chartArea'   => '{top: "5%", height: "90%"}',
 		'pieSliceText' => 'label',
@@ -186,7 +186,7 @@ function yourls_stats_line( $values, $id = null ) {
 		"height"	  => 220,
 		"hAxis"       => "{minTextSpacing: 80, maxTextLines: 1, maxAlternation: 1}",
 		"vAxis"       => "{minValue: 0, format: '#'}",
-		"colors"	  => "['#2a85b3']",
+		"colors"	  => "['#5b183f']",
 	);
 	$options = yourls_apply_filter( 'stats_line_options', $options );
 
